@@ -57,7 +57,7 @@ export default function ContactPage() {
 
       toast({
         title: "Thank you!",
-        description: "We've received your message and will get back to you soon.",
+        description: "We&apos;ve received your message and will get back to you soon.",
       })
       reset()
     } catch (error) {
@@ -83,7 +83,7 @@ export default function ContactPage() {
               Get in Touch
             </h1>
             <p className="text-xl text-muted-foreground">
-              Ready to transform your IT infrastructure? Let's discuss how we
+              Ready to transform your IT infrastructure? Let&apos;s discuss how we
               can help.
             </p>
           </div>

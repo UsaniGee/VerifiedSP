@@ -206,7 +206,7 @@ export default function AboutPage() {
                 Ready to Transform Your IT Infrastructure?
               </h2>
               <p className="text-lg opacity-90 mb-6 max-w-2xl mx-auto">
-                Let's work together to strengthen your digital infrastructure,
+                Let&apos;s work together to strengthen your digital infrastructure,
                 streamline operations, and enable data-driven decision-making.
               </p>
               <a

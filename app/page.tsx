@@ -47,7 +47,7 @@ export default function Home() {
             </FadeIn>
             <FadeIn delay={0.2}>
               <p className="text-lg opacity-90">
-                Let's discuss how we can help secure and scale your business.
+                Let&apos;s discuss how we can help secure and scale your business.
               </p>
             </FadeIn>
             <FadeIn delay={0.4}>

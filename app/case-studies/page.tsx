@@ -49,7 +49,7 @@ export default function CaseStudiesPage() {
               Case Studies
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Real results from real businesses. See how we've helped companies
+              Real results from real businesses. See how we&apos;ve helped companies
               transform their IT infrastructure.
             </p>
           </div>
