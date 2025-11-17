@@ -46,12 +46,13 @@ export default function ServicesPage() {
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <ul className="space-y-2 text-sm text-muted-foreground">
-                      <li>• Penetration Testing & Vulnerability Assessment</li>
-                      <li>• Security Architecture & Implementation</li>
-                      <li>• Compliance & Risk Management</li>
-                      <li>• 24/7 Security Monitoring</li>
-                    </ul>
+                    {service.features && service.features.length > 0 && (
+                      <ul className="space-y-2 text-sm text-muted-foreground">
+                        {service.features.map((item, i) => (
+                          <li key={i}>• {item}</li>
+                        ))}
+                      </ul>
+                    )}
                   </CardContent>
                 </Card>
               </FadeIn>
