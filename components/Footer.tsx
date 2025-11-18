@@ -11,8 +11,7 @@ export function Footer() {
           <div className="space-y-4">
           <Image src="https://res.cloudinary.com/dnu4lxiie/image/upload/v1762972893/logo_jo3xr9.svg" alt="Verified Sp Ltd" width={150} height={150} />
             <p className="text-sm text-muted-foreground">
-              Strategic, Secure & Scalable IT Solutions for businesses across
-              the UK.
+              Strategic, Secure & Scalable IT Solutions for businesses globally.
             </p>
           </div>
 
