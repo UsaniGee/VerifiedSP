@@ -6,8 +6,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Shield, Code, Database, Brain, Target, Users } from "lucide-react"
 
 export const metadata: Metadata = createPageMetadata(
-  "About Us — Verified Sp Ltd",
-  "Verified Sp Ltd is a dynamic IT consultancy specializing in cybersecurity, DevSecOps, data analysis, and AI implementation. We help businesses thrive through secure, innovative technology solutions."
+  "About Us — Verified Sp ",
+  "Verified Sp  is a dynamic IT consultancy specializing in cybersecurity, DevSecOps, data analysis, and AI implementation. We help businesses thrive through secure, innovative technology solutions."
 )
 
 const values = [
@@ -90,7 +90,7 @@ export default function AboutPage() {
         <FadeIn>
           <div className="text-center mb-16 max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              About Verified Sp Ltd
+              About Verified Sp 
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
               A dynamic IT consultancy and contracting company dedicated to
@@ -105,7 +105,7 @@ export default function AboutPage() {
           <FadeIn delay={0.1}>
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Verified Sp Ltd is a dynamic IT consultancy and contracting
+                Verified Sp  is a dynamic IT consultancy and contracting
                 company dedicated to helping businesses thrive through secure,
                 innovative, and cost-effective technology solutions. We
                 specialize in delivering expert services across{" "}
@@ -125,7 +125,7 @@ export default function AboutPage() {
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 With a strong focus on security, efficiency, and innovation,
-                Verified Sp Ltd empowers companies to grow confidently in the
+                Verified Sp  empowers companies to grow confidently in the
                 digital age.
               </p>
             </div>

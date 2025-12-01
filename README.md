@@ -1,6 +1,6 @@
-# Verified Sp Ltd Website
+# Verified Sp  Website
 
-A production-ready Next.js + TypeScript website for Verified Sp Ltd, combining elegant animations with clean, content-first layouts.
+A production-ready Next.js + TypeScript website for Verified Sp , combining elegant animations with clean, content-first layouts.
 
 ## Features
 
@@ -174,5 +174,5 @@ NEXT_PUBLIC_BASE_URL=https://yourdomain.com
 
 ## License
 
-Private - Verified Sp Ltd
+Private - Verified Sp 
 

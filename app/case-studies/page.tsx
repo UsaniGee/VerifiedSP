@@ -4,7 +4,7 @@ import { CaseCard } from "@/components/CaseCard"
 import { FadeIn } from "@/components/FadeIn"
 
 export const metadata: Metadata = createPageMetadata(
-  "Case Studies — Verified Sp Ltd",
+  "Case Studies — Verified Sp ",
   "Explore our successful cybersecurity and IT transformation projects. Real results from real businesses."
 )
 

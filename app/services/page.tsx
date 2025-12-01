@@ -4,10 +4,22 @@ import { createPageMetadata } from "@/lib/metadata"
 import { ServicesGrid } from "@/components/ServicesGrid"
 import { FadeIn } from "@/components/FadeIn"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Shield, Code, Brain, Database } from "lucide-react"
+import { 
+  Shield, 
+  Code, 
+  Brain, 
+  Database, 
+  Cloud, 
+  ShieldCheck, 
+  GitBranch, 
+  Target, 
+  Lightbulb, 
+  Network, 
+  Settings 
+} from "lucide-react"
 
 export const metadata: Metadata = createPageMetadata(
-  "Cybersecurity & DevSecOps — Verified Sp Ltd",
+  "Cybersecurity & DevSecOps — Verified Sp ",
   "Comprehensive IT security and development services: penetration testing, vulnerability assessment, DevSecOps integration, AI/ML solutions, and data analytics."
 )
 
@@ -16,6 +28,13 @@ const iconMap = {
   code: Code,
   brain: Brain,
   database: Database,
+  cloud: Cloud,
+  "shield-check": ShieldCheck,
+  "git-branch": GitBranch,
+  target: Target,
+  lightbulb: Lightbulb,
+  network: Network,
+  settings: Settings,
 }
 
 export default function ServicesPage() {
@@ -34,7 +53,8 @@ export default function ServicesPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           {services.map((service, index) => {
-            const Icon = iconMap[service.icon as keyof typeof iconMap] || Shield
+            // @ts-ignore
+            const Icon = iconMap[service.icon] || Shield
             return (
               <FadeIn key={service.id} delay={index * 0.1}>
                 <Card className="h-full">
@@ -77,4 +97,3 @@ export default function ServicesPage() {
     </div>
   )
 }
-

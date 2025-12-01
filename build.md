@@ -1,10 +1,10 @@
-Verified Sp Ltd — Website development plan & Next.js + TypeScript pseudocode
+Verified Sp  — Website development plan & Next.js + TypeScript pseudocode
 
 Nice brief — below is a focused, step-by-step plan to build a polished marketing + product site that blends the visual/animation strengths of shiftone.eu with the clean layouts and content structure of madebyshape.co.uk. At the end there's a comprehensive Next.js + TypeScript pseudocode scaffold that uses zod for validation and shadcn/ui components for UI.
 
 Step 0 — High-level goal
 
-Build a responsive, performant website for Verified Sp Ltd (UK) that:
+Build a responsive, performant website for Verified Sp  (UK) that:
 
 Communicates services (Cybersecurity, DevSecOps, AI/ML, Data).
 
@@ -153,9 +153,9 @@ Use short meta descriptions and structured data (JSON-LD). Focus keywords drawn 
 
 Example meta title + description (Home):
 
-Title: Verified Sp Ltd — Strategic, Secure & Scalable IT Solutions (UK)
+Title: Verified Sp  — Strategic, Secure & Scalable IT Solutions (UK)
 
-Description: Verified Sp Ltd empowers businesses with secure, data-driven IT strategies: cybersecurity, DevSecOps, AI & analytics. Trusted partners in digital transformation.
+Description: Verified Sp  empowers businesses with secure, data-driven IT strategies: cybersecurity, DevSecOps, AI & analytics. Trusted partners in digital transformation.
 
 Page-specific keywords: penetration testing UK, DevSecOps consultancy, AI-powered security, MLOps engineer services.
 
@@ -308,9 +308,9 @@ GDPR: store minimal lead data and include privacy policy.
 
 Example SEO metadata and page titles (quick)
 
-Home: Verified Sp Ltd — Secure. Strategic. Scalable.
+Home: Verified Sp  — Secure. Strategic. Scalable.
 
-Services: Cybersecurity & DevSecOps — Verified Sp Ltd
+Services: Cybersecurity & DevSecOps — Verified Sp 
 
 Case study: Case Study — [Client] — Penetration Test
 

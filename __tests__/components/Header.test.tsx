@@ -12,7 +12,7 @@ vi.mock('next/link', () => ({
 describe('Header Component', () => {
   it('should render company logo', () => {
     render(<Header />)
-    const logo = screen.getByAltText('Verified Sp Ltd')
+    const logo = screen.getByAltText('Verified Sp ')
     expect(logo).toBeInTheDocument()
   })
 

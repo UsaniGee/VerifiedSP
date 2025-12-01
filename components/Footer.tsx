@@ -9,7 +9,7 @@ export function Footer() {
       <div className="container py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-          <Image src="https://res.cloudinary.com/dnu4lxiie/image/upload/v1762972893/logo_jo3xr9.svg" alt="Verified Sp Ltd" width={150} height={150} />
+          <Image src="https://res.cloudinary.com/dnu4lxiie/image/upload/v1762972893/logo_jo3xr9.svg" alt="Verified Sp " width={150} height={150} />
             <p className="text-sm text-muted-foreground">
               Strategic, Secure & Scalable IT Solutions for businesses globally.
             </p>
@@ -55,6 +55,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/careers" className="hover:text-foreground">
+                  Careers
+                </Link>
+              </li>
+              <li>
                 <Link href="/contact" className="hover:text-foreground">
                   Contact Us
                 </Link>
@@ -75,7 +80,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>&copy; {currentYear} Verified Sp Ltd. All rights reserved.</p>
+          <p>&copy; {currentYear} Verified Sp . All rights reserved.</p>
         </div>
       </div>
     </footer>

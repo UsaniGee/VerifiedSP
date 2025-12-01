@@ -23,6 +23,7 @@ export function Header() {
     { href: "/about", label: "About" },
     { href: "/services", label: "Services" },
     { href: "/case-studies", label: "Case Studies" },
+    { href: "/careers", label: "Careers" },
     { href: "/contact", label: "Contact" },
   ]
 
@@ -37,7 +38,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-primary backdrop-blur supports-[backdrop-filter]:bg-primary">
       <nav className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
-         <Image src="https://res.cloudinary.com/dnu4lxiie/image/upload/v1763379629/VerifiedLogo_rrau3n.svg" alt="Verified Sp Ltd" width={150} height={150} />
+         <Image src="https://res.cloudinary.com/dnu4lxiie/image/upload/v1763379629/VerifiedLogo_rrau3n.svg" alt="Verified Sp " width={150} height={150} />
         </Link>
 
         {/* Desktop Navigation */}
@@ -73,9 +74,8 @@ export function Header() {
           </Button>
         </div>
 
-        {/* Mobile Menu Button */}
         <button
-          className="md:hidden"
+          className="md:hidden text-secondary"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >

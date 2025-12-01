@@ -20,7 +20,7 @@ export function Hero() {
           </SlideIn>
           <FadeIn delay={0.2}>
             <p className="text-xl md:text-2xl text-muted-foreground">
-              Verified Sp Ltd empowers businesses with secure, data-driven IT
+              Verified Sp  empowers businesses with secure, data-driven IT
               strategies: cybersecurity, DevSecOps, AI & analytics. Trusted
               partners in digital transformation.
             </p>

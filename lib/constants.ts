@@ -71,7 +71,7 @@ export const services = [
       "Multi-Cloud & Hybrid Cloud Integration",
       "Disaster Recovery & Business Continuity Engineering",
     ],
-    icon: "database",
+    icon: "cloud",
   },
   {
     id: "Cloud Security Services",
@@ -86,7 +86,7 @@ export const services = [
       "Disaster Recovery (DR) & Resilience Engineering",
       "Data Protection, Encryption & Key Management (KMS/HSM)",
     ],
-    icon: "database",
+    icon: "shield-check",
   },
   {
     id: "devOps",
@@ -101,7 +101,7 @@ export const services = [
       "Monitoring & Observability Setup",
       "Dockerization & Containerization",
     ],
-    icon: "code",
+    icon: "git-branch",
   },
   {
     id: "Project Management & Agile Delivery",
@@ -116,7 +116,7 @@ export const services = [
       "Resource and timeline optimization; Ensuring cost-effective and on-time delivery.",
       "Change management & adoption strategy; Ensuring business users embrace new systems or processes.",
     ],
-    icon: "database",
+    icon: "target",
   },
   {
     id: "Technology Strategy Consulting",
@@ -131,7 +131,7 @@ export const services = [
       "Enterprise architecture design; Building future-ready, modular IT systems.",
       "Innovation enablement; Identifying emerging tech (AI, blockchain, IoT) opportunities.",
     ],
-    icon: "database",
+    icon: "lightbulb",
   },
   {
     id: "Digital Infrastructure Strengthening",
@@ -146,7 +146,7 @@ export const services = [
       "Monitoring & observability setup; Implementing tools like Prometheus, Grafana, or Datadog.",
       "	DevOps enablement; CI/CD pipelines, containerization, and automation integration.",
     ],
-    icon: "database",
+    icon: "network",
   },
   {
     id: "Operational Streamlining and Risk Reduction",
@@ -161,7 +161,7 @@ export const services = [
       "Service performance measurement (SLAs & KPIs); Building transparency in operations",
       "Continuous improvement frameworks (Lean, Six Sigma); Driving measurable efficiency gains.",
     ],
-    icon: "wheel",
+    icon: "settings",
   },
 ] as const;
 

@@ -2,7 +2,19 @@
 
 import Link from "next/link"
 import { motion } from "framer-motion"
-import { Shield, Code, Brain, Database } from "lucide-react"
+import { 
+  Shield, 
+  Code, 
+  Brain, 
+  Database, 
+  Cloud, 
+  ShieldCheck, 
+  GitBranch, 
+  Target, 
+  Lightbulb, 
+  Network, 
+  Settings 
+} from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { services } from "@/lib/constants"
 import { FadeIn } from "@/components/FadeIn"
@@ -12,6 +24,13 @@ const iconMap = {
   code: Code,
   brain: Brain,
   database: Database,
+  cloud: Cloud,
+  "shield-check": ShieldCheck,
+  "git-branch": GitBranch,
+  target: Target,
+  lightbulb: Lightbulb,
+  network: Network,
+  settings: Settings,
 }
 
 export function ServicesGrid() {
@@ -31,7 +50,8 @@ export function ServicesGrid() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.slice(0,4).map((service, index) => {
-            const Icon = iconMap[service.icon as keyof typeof iconMap] || Shield
+            // @ts-ignore
+            const Icon = iconMap[service.icon] || Shield
             return (
               <FadeIn key={service.id} delay={index * 0.1}>
                 <motion.div
