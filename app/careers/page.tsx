@@ -117,7 +117,7 @@ export default function CareersPage() {
               Join Our Team
             </h1>
             <p className="text-xl text-muted-foreground">
-              We're always looking for talented individuals to help us secure the future.
+              We&apos;re always looking for talented individuals to help us secure the future.
             </p>
           </div>
         </FadeIn>
@@ -128,7 +128,7 @@ export default function CareersPage() {
               <CardHeader>
                 <CardTitle>Open Positions</CardTitle>
                 <CardDescription>
-                  Send us your details and we'll contact you if your profile matches our needs.
+                  Send us your details and we&apos;ll contact you if your profile matches our needs.
                 </CardDescription>
               </CardHeader>
               <CardContent>
