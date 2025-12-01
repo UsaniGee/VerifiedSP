@@ -1,12 +1,12 @@
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+// import { Inter } from "next/font/google"
 import "./globals.css"
 import { Header } from "@/components/Header"
 import { Footer } from "@/components/Footer"
 import { Toaster } from "@/components/ui/toaster"
 import { defaultMetadata, organizationSchema } from "@/lib/metadata"
 
-const inter = Inter({ subsets: ["latin"] })
+// const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = defaultMetadata
 
@@ -25,7 +25,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={inter.className}>
+      <body className="font-sans">
         <Header />
         <main>{children}</main>
         <Footer />
